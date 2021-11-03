@@ -6,12 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from "./components/template/Header/Header";
 import Footer from "./components/template/Footer/Footer";
+import Sidebar from "./components/macro/Sidebar/Sidebar";
 
 function App() {
   return (
     <>
 
     <Header/>
+    <Sidebar/>
     <Router>
       <Routes/>
     </Router>

@@ -5,7 +5,7 @@ function NotFound(props){
 
     return(
      <>
-     <div>404</div>
+     <div><h1> ERRO 404 PÁGINA NÃO ENCONTRADA</h1></div>
 
      </>
     )

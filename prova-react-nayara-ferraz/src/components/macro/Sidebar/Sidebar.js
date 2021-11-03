@@ -31,7 +31,7 @@ class Sidebar extends Component {
 
 
                         <div className='logo-icon text-center'>
-                            <a href='home.html' title='logo'><img src={Logo} alt='logo-icon' /> </a>
+                            <a href='home' title='logo'><img src={Logo} alt='logo-icon' /> </a>
                         </div>
 
 
@@ -39,12 +39,12 @@ class Sidebar extends Component {
 
 
                             <ul className='nav nav-pills nav-stacked custom-nav'>
-                                <li><a href='home.html'><img src={Tachometer} width="30px" /><span> Dashboard</span></a>
+                                <li><a href='home'><img src={Tachometer} width="30px" /><span> Dashboard</span></a>
                                 </li>
-                                <li><a href='cards.html'><img src={Cogs} width="30px"/> <span>Default cards</span></a></li>
-                                <li><a href='pricing.html'><img src={Table} width="30px" /> <span>Pricing tables</span></a></li>
-                                <li><a href='blocks.html'><img src={Tablet} width="30px"/> <span>Content blocks</span></a></li>
-                                <li><a href='forms.html'><img src={Text} width="30px" /> <span>Forms</span></a></li>
+                                <li><a href='cards'><img src={Cogs} width="30px"/> <span>Default cards</span></a></li>
+                                <li><a href='pricing'><img src={Table} width="30px" /> <span>Pricing tables</span></a></li>
+                                <li><a href='blocks'><img src={Tablet} width="30px"/> <span>Content blocks</span></a></li>
+                                <li><a href='forms'><img src={Text} width="30px" /> <span>Forms</span></a></li>
                             </ul>
 
 

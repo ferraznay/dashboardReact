@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import './Home.css'
-import Header from '../../components/template/Header/Header'
-import Sidebar from '../../components/macro/Sidebar/Sidebar'
-import Footer from '../../components/template/Footer/Footer'
+
 
 
 
@@ -14,8 +12,7 @@ function Home(props) {
      <>
        
             <body className="sidebar-menu-collapsed">
-                <Sidebar />
-                <Header />
+                
 
 
                 <div class="main-content">

@@ -8,7 +8,8 @@ class Header extends Component {
     render(){
         return(
             <>
-                <body class="sidebar-menu-collapsed">
+                <body className="sidebar-menu-collapsed">
+                <div class="main-content">
                     <div className="header sticky-header">
 
 
@@ -49,7 +50,7 @@ class Header extends Component {
                             </div>
                         </div>
                     </div>
-
+                </div>
                 </body>
                
 

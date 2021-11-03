@@ -14,11 +14,11 @@ export const Routes = () => {
     return(
         <Switch>
             <Route path="/" component={Home} exact/>
-            <Route path ="/home" component={Home}/>
-            <Route path="/blocks" component={Blocks}/>
-            <Route path="/cards" component={Cards}/>
-            <Route path="/forms" component={Forms}/>
-            <Route path="/pricing" component={Pricing}/>
+            <Route path ="/home" component={Home} exact/>
+            <Route path="/blocks" component={Blocks} exact/>
+            <Route path="/cards" component={Cards} exact/>
+            <Route path="/forms" component={Forms} exact/>
+            <Route path="/pricing" component={Pricing} exact/>
             <Route component={NotFound}/>
 
         </Switch>
