@@ -55,8 +55,8 @@ class Sidebar extends Component {
                             </ul>
 
 
-                            {/* <a className='toggle-btn' onClick={toggleMenu}> */}
-                            <a class="toggle-btn" onclick="toggleMenu()">
+                            <a className='toggle-btn' onClick={toggleMenu}>
+                           
                                 <i className=' menu-collapsed__left'><span><img src={Left} width="20px"/>Collapse Sidebar</span></i>
                                 <i className=' menu-collapsed__right'></i><img src={Right} width="20px"/>
                             </a>
@@ -70,6 +70,19 @@ class Sidebar extends Component {
 
      </>
     )
+
+    function toggleMenu() {
+        let body = document.querySelector("body");
+        let hasCollapsed = body.classList.contains("sidebar-menu-collapsed");
+        if(hasCollapsed) {
+         body.classList.remove("sidebar-menu-collapsed");
+         body.classList.add("noscroll");
+        } else {
+          body.classList.remove("noscroll");
+          body.classList.add("sidebar-menu-collapsed");
+        };
+      }
+
     } 
 }
 

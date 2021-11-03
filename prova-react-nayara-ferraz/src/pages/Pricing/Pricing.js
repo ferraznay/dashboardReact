@@ -15,7 +15,7 @@ function Pricing(props){
 
                         <nav aria-label="breadcrumb" className="mb-4">
                             <ol className="breadcrumb my-breadcrumb">
-                                <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li className="breadcrumb-item"><a href="home">Home</a></li>
                                 <li className="breadcrumb-item active" aria-current="page">Pricing Tables</li>
                             </ol>
                         </nav>

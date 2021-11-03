@@ -1,6 +1,8 @@
+import { Button } from 'bootstrap'
 import React, { Component } from 'react'
 import Input from '../../micro/Forms/Input/Input'
 import './Form.css'
+
 
 class Form extends Component {
     render() {
@@ -12,24 +14,22 @@ class Form extends Component {
                     {/* Primeiro Form */}
                     <div className="card card_border py-2 mb-4">
                         <div className="cards__heading">
-                            <h3>Forms <span></span></h3>
+                       
+                           <h3>Forms <span></span></h3>
                         </div>
                         <div className="card-body">
                             <form action="#" method="post">
                                 <div className="form-group">
                                     <Input label="Email Address" type="text" placeholder="Enter email"/>
-                                    <label for="exampleInputEmail1" className="input__label">Email address</label>
-                                    <input type="email" className="form-control input-style" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="Enter email" />
                                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with
                                         anyone else.</small>
                                 </div>
                                 <div className="form-group">
-                                    <label for="exampleInputPassword1" className="input__label">Password</label>
-                                    <input type="password" className="form-control input-style" id="exampleInputPassword1"
-                                        placeholder="Password" />
+                                <Input label="Password" type="password" placeholder="Password"/>
+                                   
                                 </div>
                                 <div className="form-check check-remember check-me-out">
+
                                     <input type="checkbox" className="form-check-input checkbox" id="exampleCheck1" />
                                     <label className="form-check-label checkmark" for="exampleCheck1">Check me out</label>
                                 </div>
@@ -43,27 +43,24 @@ class Form extends Component {
                             <form action="#" method="post">
                                 <div className="form-row">
                                     <div className="form-group col-md-6">
-                                        <label for="inputEmail4" className="input__label">Email</label>
-                                        <input type="email" className="form-control input-style" id="inputEmail4" placeholder="Email" />
+                                        <Input label="E-mail" type="text" placeholder="Email"/>
                                     </div>
                                     <div className="form-group col-md-6">
-                                        <label for="inputPassword4" className="input__label">Password</label>
-                                        <input type="password" className="form-control input-style" id="inputPassword4" placeholder="Password" />
+                                    <Input label="Password" type="password" placeholder="Password"/>
                                     </div>
                                 </div>
                                 <div className="form-group">
-                                    <label for="inputAddress" className="input__label">Address</label>
-                                    <input type="text" className="form-control input-style" id="inputAddress" placeholder="1234 Main St" />
+                                <Input label="Address" type="text" placeholder="1234 Main St"/>
+                                    
                                 </div>
                                 <div className="form-group">
-                                    <label for="inputAddress2" className="input__label">Address 2</label>
-                                    <input type="text" className="form-control input-style" id="inputAddress2"
-                                        placeholder="Apartment, studio, or floor" />
+                                <Input label="Address 2" type="text" placeholder="Apartment, studio, or floor"/>
+                                   
                                 </div>
                                 <div className="form-row">
                                     <div className="form-group col-md-6">
-                                        <label for="inputCity" className="input__label">City</label>
-                                        <input type="text" className="form-control input-style" id="inputCity" />
+                                        <Input label="City" type="text"/>
+                                       
                                     </div>
                                     <div className="form-group col-md-4">
                                         <label for="inputState" className="input__label">State</label>
@@ -73,8 +70,8 @@ class Form extends Component {
                                         </select>
                                     </div>
                                     <div className="form-group col-md-2">
-                                        <label for="inputZip" className="input__label">Zip</label>
-                                        <input type="text" className="form-control input-style" id="inputZip" />
+                                    <Input label="Zip" type="text"/>
+                                        
                                     </div>
                                 </div>
                                 <div className="form-check check-remember check-me-out">
@@ -83,6 +80,7 @@ class Form extends Component {
                                         Check me out
                                     </label>
                                 </div>
+                                
                                 <button type="submit" className="btn btn-primary btn-style mt-4">Sign in</button>
                             </form>
                         </div>
