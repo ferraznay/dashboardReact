@@ -2,8 +2,6 @@ import React from 'react'
 import './Forms.css'
 
 
-import React from 'react'
-
 function Forms(props){
 
     return(
