@@ -1,0 +1,185 @@
+.sticky-header.sidebar-menu-collapsed footer.dashboard {
+    left: 52px; }
+  
+  .sidebar-menu-collapsed footer.dashboard {
+    left: 52px; }
+
+.sidebar-menu-collapsed .sticky-sidebar-menu {
+    overflow-y: visible; 
+}
+
+.sidebar-menu-collapsed .logo-icon {
+    height: 60px;
+    margin-top: 0;
+    display: block !important;
+    background: #4755AB;
+    line-height: 60px; 
+}
+
+.sidebar-menu-collapsed .custom-nav > li > a:hover i.fa {
+    color: var(--primary);
+    color: var(--secondary);
+    transition: 0.3s ease; 
+}
+
+.sidebar-menu-collapsed .logo {
+    display: none; }
+  
+  .sidebar-menu-collapsed .header {
+    margin-left: 0px; }
+  
+  .sidebar-menu-collapsed .sidebar-menu {
+    width: 60px;
+    top: 0px; }
+  
+  .sidebar-menu-collapsed .sidebar-menu-inner {
+    padding: 0; }
+  
+  h5.left-nav-title {
+    margin-left: 10px;
+    color: #fff;
+    margin-bottom: 8px; }
+  
+  .sidebar-menu-collapsed .custom-nav li a {
+    text-align: center;
+    padding: 10px;
+    position: relative; }
+  
+  .sidebar-menu-collapsed .custom-nav li a span {
+    position: absolute;
+    background: var(--primary);
+    padding: 10px;
+    left: 60px;
+    top: 0px;
+    min-width: 190px;
+    text-align: left;
+    z-index: 100;
+    display: none;
+    font-size: 16px; }
+  
+  .sidebar-menu-collapsed .custom-nav li a span:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-right-color: var(--primary);
+    border-width: 6px;
+    margin-top: -6px; }
+  
+  .sidebar-menu-collapsed .custom-nav li.active a span {
+    border-radius: 0; }
+  
+  .sidebar-menu-collapsed .custom-nav ul,
+  .sidebar-menu-collapsed .custom-nav .menu-list.nav-active ul {
+    display: none; }
+  
+  .sidebar-menu-collapsed .custom-nav .menu-list.nav-hover ul {
+    display: block; }
+  
+  .sidebar-menu-collapsed .custom-nav > li.nav-hover > a,
+  .sidebar-menu-collapsed .custom-nav > li.nav-hover.active > a {
+    background-color: rgba(177, 98, 172, 0.05);
+    color: var(--secondary); }
+  
+  .sidebar-menu-collapsed .custom-nav li.nav-hover a span {
+    display: block;
+    color: #fff; }
+  
+  .sidebar-menu-collapsed .custom-nav li.nav-hover.active a span {
+    background-color: var(--primary);
+    color: #fff; }
+  
+  .sidebar-menu-collapsed .custom-nav li.nav-hover ul {
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 60px;
+    margin: 0;
+    min-width: 190px;
+    background-color: var(--light-bg-color);
+    z-index: 100;
+    border-radius: 0 0 2px 0; }
+  
+  .sidebar-menu-collapsed .custom-nav ul a {
+    text-align: left;
+    padding: 10px 15px; }
+  
+  .sidebar-menu-collapsed .custom-nav ul a:hover {
+    text-decoration: none;
+    color: #f7f7f7;
+    background-color: #3b4e9c; }
+  
+  .sidebar-menu-collapsed .custom-nav li a i {
+    margin-right: 0;
+    font-size: 1.2em; }
+  
+  .sidebar-menu-collapsed .custom-nav li a span i {
+    display: none; }
+  
+  ul.nav i {
+    width: 25px;
+    display: inline-block; }
+  
+.sidebar-menu-collapsed .main-content {
+    margin-left: 60px; }
+  
+.sidebar-menu-collapsed .sidebar-menu {
+    overflow: visible !important;
+    z-index: 3; }
+
+.sidebar-menu-collapsed .toggle-btn {
+        padding: 10px;
+        text-align: center; }
+
+.sidebar-menu-collapsed .menu-collapsed__left {
+    display: none; 
+}
+          
+.sidebar-menu-collapsed .menu-collapsed__right {
+    display: inline-block; 
+}
+
+.sidebar-menu-collapsed label.label.label-primary {
+    display: none; }
+
+    @media (max-width: 500px) {
+        .nofitications-dropdown ul.dropdown-menu {
+          min-width: 250px;
+          right: -110px;
+          z-index: 999; }
+        .nofitications-dropdown li .dropdown-menu:before {
+          right: 125px; }
+        .sidebar-menu-collapsed .toggle-btn {
+          width: 50px;
+          top: 0;
+          height: 50px;
+          line-height: 50px;
+          padding: 0;
+          background: var(--light-bg-color); }
+        .sidebar-menu-collapsed .sidebar-menu {
+          width: 0px; }
+        .sidebar-menu-collapsed .main-content {
+          margin-left: 0px; }
+        .toggle-btn {
+          top: 0;
+          bottom: auto;
+          height: 50px;
+          line-height: 45px;
+          padding-top: 0;
+          padding-bottom: 0;
+          background: var(--light-bg-color); }
+        .logo {
+          margin-top: 50px; }
+        .sidebar-menu {
+          width: 230px; }
+        .main-content {
+          margin-left: 0px; }
+        .sidebar-menu-collapsed .custom-nav li a {
+          display: none; } }
+
+

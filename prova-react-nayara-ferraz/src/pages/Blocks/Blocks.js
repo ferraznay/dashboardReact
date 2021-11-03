@@ -1,6 +1,10 @@
 import React from 'react'
 import './Blocks.css'
-
+import Template from '../../assets/images/template2.jpg'
+import Template1 from '../../assets/images/template1.jpg'
+import Laptop from '../../assets/images/laptop.png'
+import Paint from '../../assets/images/paint.png'
+import Signal from '../../assets/images/signal.png'
 
 function Blocks(props){
 
@@ -40,7 +44,7 @@ function Blocks(props){
                                         <a href="#read" className="btn btn-style btn-primary"> Read More</a>
                                     </div>
                                     <div className="col-lg-6 pl-lg-4 mt-lg-0 mt-4">
-                                        <img src="assets/images/template2.jpg" alt="" className="img-fluid rounded" />
+                                        <img src={Template} alt="" className="img-fluid rounded" />
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +54,7 @@ function Blocks(props){
                             <div className="card-body py-3 p-0">
                                 <div className="row">
                                     <div className="col-lg-6 pr-lg-4">
-                                        <img src="assets/images/template1.jpg" alt="" className="img-fluid rounded" />
+                                        <img src={Template1} alt="" className="img-fluid rounded" />
                                     </div>
                                     <div className="col-lg-6 align-self pl-lg-4 mt-lg-0 mt-4">
                                         <h3 className="block__title mb-lg-4">Content Block with 2 buttons</h3>
@@ -125,14 +129,14 @@ function Blocks(props){
                                                 <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                             </div>
                                             <div className="col-md-6 column mt-4">
-                                                <span className="fa fa-laptop icon-fea" aria-hidden="true"></span>
+                                                <span  aria-hidden="true"><img src={Laptop} width="40px" /></span>
                                                 <a href="#url">Webdesign</a>
                                                 <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-6 mt-md-0 mt-5 cwp23-img">
-                                        <img src="assets/images/template2.jpg" className="img-fluid rounded" alt="" />
+                                        <img src={Template} className="img-fluid rounded" alt="" />
                                     </div>
                                 </div>
                             </div>
