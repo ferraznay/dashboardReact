@@ -1,57 +1,67 @@
 import React, { Component } from 'react'
 import './Sidebar.css'
+import Logo from '../../../assets/images/logo.png'
+import Tachometer from '../../../assets/images/tachometer.png'
+import Cogs from '../../../assets/images/cogs.png'
+import Table from '../../../assets/images/table.png'
+import Tablet from '../../../assets/images/tablet.png'
+import Text from '../../../assets/images/file-text.png'
 
-class Sidebar extends Component{
+class Sidebar extends Component {
     render(){
     return(
      <>
-            <section>
+            <body class="sidebar-menu-collapsed">
 
-                <div className='sidebar-menu sticky-sidebar-menu'>
+                <section>
+
+                    <div className='sidebar-menu sticky-sidebar-menu'>
 
 
-                    <div className='logo'>
-                        <h1><a href='#'>Collective</a></h1>
+                        <div className='logo'>
+                            <h1><a href='home.html'>Collective</a></h1>
+                        </div>
+
+
+                        <div className='logo'>
+                            <a href='home.html'>
+                                <img src={Logo} alt='Your logo' title='Your logo' className='img-fluid' styles={{ height: '10px' }} />
+                            </a>
+                        </div>
+
+
+                        <div className='logo-icon text-center'>
+                            <a href='home.html' title='logo'><img src={Logo} alt='logo-icon' /> </a>
+                        </div>
+
+
+                        <div className='sidebar-menu-inner'>
+
+
+                            <ul className='nav nav-pills nav-stacked custom-nav'>
+                                <li><a href='home.html'><img src={Tachometer} width="30px" /><span> Dashboard</span></a>
+                                </li>
+                                <li><a href='cards.html'><img src={Cogs} width="30px"/> <span>Default cards</span></a></li>
+                                <li><a href='pricing.html'><img src={Table} width="30px" /> <span>Pricing tables</span></a></li>
+                                <li><a href='blocks.html'><img src={Tablet} width="30px"/> <span>Content blocks</span></a></li>
+                                <li><a href='forms.html'><img src={Text} width="30px" /> <span>Forms</span></a></li>
+                            </ul>
+
+
+                            <a className='toggle-btn' onclick='toggleMenu()'>
+                                <i className='fa fa-angle-double-left menu-collapsed__left'><span>Collapse Sidebar</span></i>
+                                <i className='fa fa-angle-double-right menu-collapsed__right'></i>
+                            </a>
+
+                        </div>
                     </div>
+                </section>
 
-
-                    <div className='logo'>
-                        <a href='#'>
-                            <img src='image-path' alt='Your logo' title='Your logo' className='img-fluid' styles={{ height: '10px' }} />
-                        </a>
-                    </div>
-
-
-                    <div className='logo-icon text-center'>
-                        <a href='#' title='logo'><img src='assets/images/logo.png' alt='logo-icon' /> </a>
-                    </div>
-
-
-                    <div className='sidebar-menu-inner'>
-
-
-                        <ul className='nav nav-pills nav-stacked custom-nav'>
-                            <li><a href='#'><i className='fa fa-tachometer'></i><span> Dashboard</span></a>
-                            </li>
-                            <li><a href='cards.html'><i className='fa fa-cogs'></i> <span>Default cards</span></a></li>
-                            <li><a href='pricing.html'><i className='fa fa-table'></i> <span>Pricing tables</span></a></li>
-                            <li><a href='blocks.html'><i className='fa fa-th'></i> <span>Content blocks</span></a></li>
-                            <li><a href='forms.html'><i className='fa fa-file-text'></i> <span>Forms</span></a></li>
-                        </ul>
-
-
-                        <a className='toggle-btn' onclick='toggleMenu()'>
-                            <i className='fa fa-angle-double-left menu-collapsed__left'><span>Collapse Sidebar</span></i>
-                            <i className='fa fa-angle-double-right menu-collapsed__right'></i>
-                        </a>
-
-                    </div>
-                </div>
-            </section>
+            </body>
 
      </>
     )
-    }
+    }   
 }
 
 export default Sidebar
