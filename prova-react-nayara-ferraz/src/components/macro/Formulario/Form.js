@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Input from '../../micro/Forms/Input/Input'
 import './Form.css'
 
 class Form extends Component {
@@ -16,6 +17,7 @@ class Form extends Component {
                         <div className="card-body">
                             <form action="#" method="post">
                                 <div className="form-group">
+                                    <Input label="Email Address" type="text" placeholder="Enter email"/>
                                     <label for="exampleInputEmail1" className="input__label">Email address</label>
                                     <input type="email" className="form-control input-style" id="exampleInputEmail1"
                                         aria-describedby="emailHelp" placeholder="Enter email" />

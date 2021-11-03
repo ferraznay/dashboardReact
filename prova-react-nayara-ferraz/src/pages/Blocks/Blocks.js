@@ -76,7 +76,7 @@ function Blocks(props){
                                 <h3 className="block__title mb-lg-4">Content Block Features</h3>
                                 <div className="row feature-3 text-center">
                                     <div className="col-md-4 three-grids-columns mt-5">
-                                        <span className="fa fa-laptop icon-fea" aria-hidden="true"></span>
+                                        <span aria-hidden="true"><img src={Laptop} width="40px" /></span>
                                         <a href="#">
 
                                             <h4>Web Design</h4>
@@ -86,7 +86,7 @@ function Blocks(props){
                                         <a href="#" className="actionbg">Read More</a>
                                     </div>
                                     <div className="col-md-4 three-grids-columns mt-5">
-                                        <span className="fa fa-paint-brush icon-fea" aria-hidden="true"></span>
+                                        <span  aria-hidden="true"><img src={Paint} width="40px" /></span>
                                         <a href="#">
 
                                             <h4>Graphic Design</h4>
@@ -95,7 +95,7 @@ function Blocks(props){
                                         <a href="#" className="actionbg">Read More</a>
                                     </div>
                                     <div className="col-md-4 three-grids-columns mt-5">
-                                        <span className="fa fa-signal icon-fea" aria-hidden="true"></span>
+                                        <span className=" icon-fea" aria-hidden="true"><img src={Signal} width="40px" /></span>
                                         <a href="#">
 
                                             <h4>Web Development</h4>
@@ -114,17 +114,17 @@ function Blocks(props){
                                     <div className="col-md-6 cwp23-text">
                                         <div className="row cwp23-text-cols">
                                             <div className="col-md-6 column mt-4">
-                                                <span className="fa fa-laptop icon-fea" aria-hidden="true"></span>
+                                                <span aria-hidden="true"><img src={Laptop} width="40px" /></span>
                                                 <a href="#url">Web design</a>
                                                 <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                             </div>
                                             <div className="col-md-6 column mt-4">
-                                                <span className="fa fa-paint-brush icon-fea" aria-hidden="true"></span>
+                                                <span  aria-hidden="true"><img src={Paint} width="40px" /></span>
                                                 <a href="#url">Graphic design</a>
                                                 <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                             </div>
                                             <div className="col-md-6 column mt-4">
-                                                <span className="fa fa-signal icon-fea" aria-hidden="true"></span>
+                                                <span  aria-hidden="true"><img src={Signal} width="40px" /></span>
                                                 <a href="#url">Web development</a>
                                                 <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                             </div>

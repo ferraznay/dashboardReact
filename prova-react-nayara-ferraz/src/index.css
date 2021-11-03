@@ -3203,8 +3203,9 @@
     transform: rotate(45deg);
     box-shadow: -1px -1px 1px rgba(23, 23, 23, 0.1); }
   
-  .dropdown-toggle::after {
-    display: none; }
+    .dropdown-toggle::after {
+      display: none; }
+  
   
   /*---------------------------------
               SIDEBAR MENU
@@ -3530,19 +3531,19 @@
     display: none;
     font-size: 16px; }
   
-  .sidebar-menu-collapsed .custom-nav li a span:after {
-    right: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(0, 0, 0, 0);
-    border-right-color: var(--primary);
-    border-width: 6px;
-    margin-top: -6px; }
+    .sidebar-menu-collapsed .custom-nav li a span:after {
+      right: 100%;
+      top: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(0, 0, 0, 0);
+      border-right-color: var(--primary);
+      border-width: 6px;
+      margin-top: -6px; }
   
   .sidebar-menu-collapsed .custom-nav li.active a span {
     border-radius: 0; }
@@ -5991,6 +5992,10 @@
     .w3l-team-block h3.name-pos a {
       font-size: 25px;
       line-height: 30px; } }
+
+      a#dropdownMenu3.dropdown-toggle::after{
+        display: none;
+      }
   
   /*# sourceMappingURL=style-starter.css.map */
   

@@ -6,11 +6,18 @@ import Cogs from '../../../assets/images/cogs.png'
 import Table from '../../../assets/images/table.png'
 import Tablet from '../../../assets/images/tablet.png'
 import Text from '../../../assets/images/file-text.png'
+import Right from '../../../assets/images/direita.png'
+import Left from '../../../assets/images/esquerda.png'
 
 class Sidebar extends Component {
     render(){
+  
+        
+
     return(
      <>
+
+     
             <body class="sidebar-menu-collapsed">
 
                 <section>
@@ -48,9 +55,10 @@ class Sidebar extends Component {
                             </ul>
 
 
-                            <a className='toggle-btn' onclick='toggleMenu()'>
-                                <i className='fa fa-angle-double-left menu-collapsed__left'><span>Collapse Sidebar</span></i>
-                                <i className='fa fa-angle-double-right menu-collapsed__right'></i>
+                            {/* <a className='toggle-btn' onClick={toggleMenu}> */}
+                            <a class="toggle-btn" onclick="toggleMenu()">
+                                <i className=' menu-collapsed__left'><span><img src={Left} width="20px"/>Collapse Sidebar</span></i>
+                                <i className=' menu-collapsed__right'></i><img src={Right} width="20px"/>
                             </a>
 
                         </div>
@@ -58,10 +66,13 @@ class Sidebar extends Component {
                 </section>
 
             </body>
+    
 
      </>
     )
-    }   
+    } 
 }
+
+
 
 export default Sidebar
